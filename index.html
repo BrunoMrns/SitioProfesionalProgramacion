@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultora Tecnológica</title>
+</head>
+
+<body>
+    <!-- Logo arriba a la izquierda y el nav en horizontal desde el medio hacia la derecha -->
+    <header>
+        <img src="img/logoSF.png" alt="logo" width="300" height="100">
+        <nav>
+            <ul>
+                <!-- Agregar en css que el Header acompañe por toda la página cuando se scrollea -->
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#mision">Misión, visión y valores</a></li>
+                <li><a href="#propuesta">Propuestas</a></li>
+                <li><a href="#formulario">Presupuestos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección con el titulo de la página en grande y una imagen de fondo -->
+    <section id="inicio">
+        <h1>Consultora Tecnológica</h1>
+        <h3>En DEVELOPER FS hacemos soluciones a medida.</h3>
+        <img src="img/background.jpg" alt="fondo" width="1365" height="500">
+    </section>
+
+    <section id="servicios">
+        <!-- Luego con css poner los tres servicios en horizontal -->
+        <h2>Nuestros Servicios</h2>
+        <div>
+            <h3>Servicio de Desarrollo Web</h3>
+            <p>Creación de sitios web utilizando HTML5, CSS, JavaScript y Boostrap.</p>
+            <img src="img/front.jpg" alt="fotoFront" width="400" height="400">
+        </div>
+
+        <div>
+            <h3>Servicio de Backend</h3>
+            <p>Creación de sitios web utilizando Java, Spring/Springboot, conexión a base de datos SQLServer.</p>
+            <img src="img/back.jpg" alt="fotoBack" width="400" height="400">
+        </div>
+
+        <div>
+            <h3>Servicio de Consultoria</h3>
+            <p>Brindamos asesoramientos sobre sus páginas en busca de estrategias tecnológicas innovadoras.</p>
+            <!-- Redondear la imagen con css -->
+            <img src="img/asesoria2.jpg" alt="fotoFront" width="400" height="400">
+        </div>
+    </section>
+
+    <section id="mision">
+        <h2>Misión, Visión y Valores</h2>
+        <p><strong>Misión:</strong> Nuestra misión es complacer siempre a nuestros clientes y entregarles un trabajo que se encuentre a la altura de las competencias del mercado.</p>
+        <p><strong>Visión:</strong> Buscamos poder mantener y expandir nuestros servicios dentro y fuera del país generando confiabilidad en los clientes.</p>
+        <p><strong>Valores:</strong></p>
+        <ul>
+            <li><strong>Trabajo en Equipo: </strong>Un equipo pequeño con especialistas en cada área buscando calidad en las entregas.</li>
+            <li><strong>Aprendizaje Continuo: </strong>Buscamos capacitarnos y estar al día con las tendencias tecnológicas para ofrecer soluciones innovadoras.</li>
+            <li><strong>Adaptabilidad: </strong> Somos flexibles a las necesidades del del cliente y los cambios del mercado.</li>
+            <li><strong>Tranparencia: </strong> Buscamos ser claros y trasparentes en todas las comunicaciones con nuestros clientes.</li>
+        </ul>
+    </section>
+    
+    <section id="propuesta">
+        <h2>Propuesta Comercial</h2>
+        <h3>Servicios</h3>
+        <a href="#servicios">Nuestros Servicios</a>
+        <h3>Metodología</h3>
+        <ul>
+            <li><strong>Análisis Detallado: </strong>Buscamos tener un circuito de funcionamiento completo y rígido, comenzando por un análisis detallado del pedido del cliente y con varios intercambios hasta lograr el producto deseado.</li>
+            <li><strong>Diseño y Desarrollo: </strong>Desarrollamos soluciones eficientes y seguras.</li>
+            <li><strong>Pruebas: </strong>Realizamos pruebas rigurosas de punta a punta para garantizar la calidad.</li>
+            <li><strong>Soporte: </strong>Una vez implementadada, brindamos soporte y actualizaciones continuas.</li>
+        </ul>
+        <h3>Beneficios de Trabajar con Nosotros</h3>
+        <ul>
+            <li><strong>Experiencia: </strong>Contamos con un equipo ágil especializado en FrontEnd y BackEnd con experiencia en diversos proyectos.</li>
+            <li><strong>Compromiso y Calidad: </strong>Buscamos darle un valor agregado a nuestras entregas para sastisfacer al cliente.</li>
+            <li><strong>Personalización: </strong>Adaptamos nuestras soluciones a las necesidades específicas del cliente.</li>
+        </ul>
+    </section>
+
+    <section id="formulario">
+        <h2>Consulta Presupuesto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="consulta">Consulta:</label>
+            <textarea name="consulta" id="consulta" required></textarea>
+
+            <button type="submit">Enviar Consulta</button>
+        </form>
+    </section>
+   
+    <footer>
+        <div id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información:</p>
+                <ul>
+                    <li>Email: info@developers.com</li>
+                    <li>Teléfono: (+54) 4873-0333</li>
+                </ul>
+            <p>2024 Developers FS. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
