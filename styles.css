@@ -147,6 +147,7 @@ img {
 .servicio p {
     line-height: 2;
     text-align: center;
+    padding: 1rem;
 }
 
 .servicio img {
@@ -167,7 +168,7 @@ img {
 
 /*** MISION ***/
 .contenedor_mision {
-    width: min(90%, 120rem);
+    width: min(100%, 120rem);
     margin: 0 auto;
 }
 
@@ -175,11 +176,19 @@ img {
     color: var(--primario);
 }
 
+.contenedor_mision p {
+    padding: 1rem;
+}
+
 .contenedor_mision ul{
     margin-top: -2rem;
     margin-left: -3rem;
     list-style: none;
     padding-right: 2rem;
+}
+
+.contenedor_mision ul li{
+    font-size: 1.6rem;
 }
 
 .mision {
