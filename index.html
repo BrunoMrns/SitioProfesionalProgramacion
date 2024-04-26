@@ -7,16 +7,18 @@
     <title>Consultora Tecnológica</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- Logo arriba a la izquierda y el nav en horizontal desde el medio hacia la derecha -->
     <header>
-        <div class="contenedor">
-            <img class="logo" src="img/logoSF.png" alt="logo">
+        <div class="contenedor_header">
+            <img class="logo" src="img/logoSF.webp" alt="logo">
             <nav class="navegacion">
                 <!-- Agregar en css que el Header acompañe por toda la página cuando se scrollea -->
                 <!--<a class="navegacion_enlace" href="index.html">Inicio</a>-->
+                <a class="navegacion_enlace" href="#"><i class="fa-solid fa-house-chimney"></i></a>
                 <a class="navegacion_enlace" href="#nav_servicios">Servicios</a>
                 <a class="navegacion_enlace" href="#nav_mision">Misión, visión y valores</a>
                 <a class="navegacion_enlace" href="#nav_propuesta">Propuestas</a>
@@ -25,18 +27,11 @@
             </nav>
         </div>
     </header>
-    <section class="header__texto">
+    <section class="header_texto">
         <h1 class="no-margin">Consultora Tecnológica</h1>
         <p class="no-margin">En DEVELOPER FS hacemos soluciones a medida.</p>
-        <img src="img/background.jpg" alt="fondo">
+        <img src="img/background.webp" alt="fondo">
     </section>
-    
-    <!-- Sección con el titulo de la página en grande y una imagen de fondo -->
-    <!--<section>
-        <h1>Consultora Tecnológica</h1>
-        <h3>En DEVELOPER FS hacemos soluciones a medida.</h3>
-        <img src="img/background.jpg" alt="fondo" width="1200" height="400">
-    </section>-->
 
     <main class="sombra">
         <h2 id="nav_servicios">Nuestros Servicios</h2>
@@ -44,19 +39,19 @@
             <section class="servicio">
                 <!-- Luego con css poner los tres servicios en horizontal -->
                     <h3>Servicio de Frontend</h3>
-                    <img src="img/front.jpg" alt="fotoFront">
+                    <img src="img/front.webp" alt="fotoFront">
                     <p>Creación de sitios web utilizando HTML5, CSS, JavaScript y Bootstrap.</p>
             </section>
 
             <section class="servicio">
                     <h3>Servicio de Backend</h3>
-                    <img src="img/back.jpg" alt="fotoBack">
+                    <img src="img/back.webp" alt="fotoBack">
                     <p>Creación de sitios web utilizando Java, Spring/Springboot, conexión a base de datos SQLServer.</p>
             </section>
 
             <section class="servicio">
                     <h3>Servicio de Consultoria</h3>
-                    <img src="img/asesoria.jpg" alt="fotoAsesoria">
+                    <img src="img/asesoria.webp" alt="fotoAsesoria">
                     <p>Brindamos asesoramientos sobre sus páginas en busca de estrategias tecnológicas innovadoras.</p>
                     <!-- Redondear la imagen con css -->
             </section>
@@ -155,9 +150,9 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="contenedor">
+        <div class="contenedor_footer">
             <div class="logo">
-                <img src="img/logoSF.png" alt="logo">
+                <img src="img/logoSF.webp" alt="logo">
             </div>
 
             <div class="contacto">
@@ -168,7 +163,7 @@
                     </ul>
             </div>
         </div>
-        <p class="contenedor derechos">2024 Developers FS. Todos los derechos reservados.</p>
+        <p class="contenedor_footer derechos">© DevelopersFS, 2024 . Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
